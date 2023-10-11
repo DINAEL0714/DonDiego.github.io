@@ -22,8 +22,8 @@ const m2dxOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site:"https://DINAEL0714.github.io-1",
-  base:" DonDiego.github.io",
+  site:"https://DINAEL0714.github.io",
+  base:"/DonDiego.github.io",
   integrations: [
     mdx({}),
     sitemap(),
